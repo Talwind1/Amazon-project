@@ -196,3 +196,50 @@ h2 {
   flex-direction: row;
   justify-content: space-between;
 }
+
+.pic:first-child:hover::after {
+  content: "";
+  width: 450px;
+  height: 450px;
+  background: url("/img/box.jpg") no-repeat;
+}
+
+.right {
+  font-family: "amazon_ember";
+  font-size: 13px;
+}
+.right a {
+  text-decoration: none;
+  color: rgb(4, 84, 138);
+}
+
+.right p span {
+  font-family: "amazon_ember";
+  font-size: 20px;
+  color: rgb(122, 18, 18);
+}
+
+.right .arrow {
+  background: url("/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
+    no-repeat -184px -342px;
+  width: 13px;
+  height: 8px;
+}
+.right p span1 {
+  font-family: "amazon_ember";
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.right .deliver {
+  background: url("/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
+    no-repeat -71px -306px;
+  width: 17px;
+  height: 20px;
+}
+
+.right .stock {
+  font-family: "amazon_ember";
+  font-size: 20px;
+  color: rgb(7, 121, 86);
+}
